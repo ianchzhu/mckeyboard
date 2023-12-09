@@ -1,0 +1,31 @@
+#keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#keyboard button {
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px; /* 文本字体大小 */
+  padding: 5px 10px; /* 文本内边距 */
+}
+
+#keyboard button img {
+  width: 50px; /* 图片宽度 */
+  height: 50px; /* 图片高度 */
+}
+
+#output {
+  white-space: nowrap; /* 不换行 */
+  overflow-x: auto; /* 水平滚动条在需要时显示 */
+  margin-top: 20px;
+}
+
+#output img {
+  width: 50px; /* 输出图片宽度 */
+  height: 50px; /* 输出图片高度 */
+}
